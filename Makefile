@@ -82,3 +82,6 @@ clean:
 
 greet:
 	python main.py --name $(NAME)
+
+greet-generated:
+	python main.py --generate
